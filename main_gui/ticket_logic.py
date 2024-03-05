@@ -16,7 +16,8 @@ def submit_ticket_logic(member_id, ticket_notes, selected_assignees):
     global assignee_vars
     # API endpoint details
     endpoint_url = 'https://payload.vextapp.com/hook/6487BXFWX5/catch/$(keywords)'
-    api_key = 'mVfYv6mq.aKJwA3XrGkh5ZVIboR8ejXjB7DwsLRqL'
+    api_key = '#'  # Replace with API key
+    
     headers = {
         "accept": "application/json",
         "content-type": "application/json",
