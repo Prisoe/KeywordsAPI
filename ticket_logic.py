@@ -9,7 +9,7 @@ ticket_history = []
 def submit_ticket_logic(member_id, ticket_notes):
     # API endpoint details
     endpoint_url = "https://payload.vextapp.com/hook/3OG7JZP3RM/catch/$(keywords)"
-    api_key = "RYsCkEUm.BGOGpB1p1m9p8KnWRskuJM1sGTPvD28J"
+    api_key = "Add your API key"
     headers = {
         "accept": "application/json",
         "content-type": "application/json",
